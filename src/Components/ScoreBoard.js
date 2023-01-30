@@ -3,7 +3,7 @@ import "../Style/ScoreBoard.css";
 const ScoreBoard = ({ xScore, oScore, xPlaying, tie }) => {
   return (
     <>
-    {/* <h2>tic tac game</h2> */}
+     <h2>tic tac game</h2>
      <div className="scoreboard">
       <span className={`x-score ${xPlaying === true ? "xScoreboard" : ""}`}>
        Player X - {xScore}
